@@ -2,8 +2,9 @@
 This simple script takes every selected scene object and sticks a box on top of it named "[ObjectName]_PHYS" 
 in accordance with what SL expects the physics object to be named.
 It also range-checks your selected objects, presuming a preset scale multiplier between your scene file and SL.
-This value is by default 100, due to cm vs meters, but it's changeable in the class call.
-SLPhysicsBoxBuilder ( 100 ) 
+This value is by default 100, due to cm vs meters, but it's changeable in the class call at the bottom of this file.
+
+TODO - Autocreate a red-lambert material and assign it to out-of-bounds physics shells.
 
 To use this script, simply create a Python based Maya shelf Icon and drop this script into it.
 '''
